@@ -128,7 +128,7 @@ body {
 /* EVENTS */
 
 .events-section {
-  margin-bottom: 100px;
+  margin-bottom: 160px;
 }
 
 .events-title {
@@ -204,4 +204,32 @@ body {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+/* TRAINING */
+
+.training-section {
+  margin-bottom: 160px;
+}
+
+.training-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.training-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 0;
+  line-height: 1.25;
+  max-width: 350px;
+}
+
+.training-dates {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 73px;
+  margin-top: 0;
+  line-height: 1.25;
 }
