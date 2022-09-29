@@ -81,18 +81,22 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   line-height: 1.25;
-  margin-top: -114px;
+  margin-top: -58px;
 }
 
 .promo-text p {
-  max-width: 600px;
+  max-width: 300px;
   font-size: 18px;
   margin: 0;
+  line-height: 1.5;
+  margin-left: 91px;
 }
 
 .promo-text span {
   display: block;
   font-size: 40px;
+  line-height: 1.25;
+  margin-bottom: 20px;
 }
 
 .button-promo {
