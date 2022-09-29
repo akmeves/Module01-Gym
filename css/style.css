@@ -106,6 +106,10 @@ body {
   height: 64px;
 }
 
+.promo-img {
+  position: relative;
+}
+
 .gradient {
   width: 464px;
   height: 850px;
@@ -115,6 +119,14 @@ body {
     rgba(253, 249, 182, 0.45) 145.23%
   );
   opacity: 0.2;
+}
+
+img.girl {
+  position: absolute;
+  bottom: 1px;
+  right: -183px;
+  width: 983px;
+  height: 852px;
 }
 
 .button-down img {
@@ -216,6 +228,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 .training-title {
@@ -232,4 +245,78 @@ body {
   margin-bottom: 73px;
   margin-top: 0;
   line-height: 1.25;
+}
+
+.training-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 309px 73px 281px;
+  grid-template-areas:
+    "functional sculpt lab"
+    "mix sculpt warmup"
+    "mix practice warmup";
+}
+
+.functional {
+  grid-area: functional;
+}
+
+.sculpt {
+  grid-area: sculpt;
+}
+
+.lab {
+  grid-area: lab;
+}
+
+.mix {
+  grid-area: mix;
+}
+
+.practice {
+  grid-area: practice;
+}
+
+.warmup {
+  grid-area: warmup;
+}
+
+.training-grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 30px;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+.training-grid-item:hover {
+  border: transparent;
+  background: linear-gradient(
+    180deg,
+    #fbf138 0%,
+    rgba(253, 249, 182, 0.45) 100%
+  );
+  cursor: pointer;
+}
+
+.training-grid-dates {
+  align-self: flex-end;
+  font-size: 18px;
+  line-height: 1.25;
+  color: #010101;
+  opacity: 0.7;
+}
+
+.training-grid-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  margin-bottom: 19px;
+}
+
+.training-grid-img {
+  margin-bottom: 13px;
 }
