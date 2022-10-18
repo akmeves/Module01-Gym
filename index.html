@@ -161,10 +161,23 @@
       <div class="mail-section">
         <div class="container">
           <div class="mail">
+            <div class="circle"></div>
             <form method="post" action="url" name="mail-form" class="mail-form">
               <h1 class="title-form">Подпишитесь на рассылку</h1>
-              <input type="email" name="login" placeholder="Ваш e-mail" />
-              <input type="button" value="ПОДПИСАТЬСЯ" /><br />
+              <div class="subscribe">
+                <input
+                  type="email"
+                  name="login"
+                  placeholder="Ваш e-mail"
+                  class="email-input"
+                />
+                <input
+                  type="button"
+                  value="ПОДПИСАТЬСЯ"
+                  class="subscribe-button"
+                />
+              </div>
+
               <div class="agreement">
                 <input type="checkbox" id="01" class="checkbox" checked />
                 <label for="01" class="label-checkbox"
@@ -175,6 +188,25 @@
                 >
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+      <div class="company-section">
+        <div class="container">
+          <div class="company">
+            <div class="company-description">
+              <div class="company-text">
+                <h2 class="company-title">О компании</h2>
+                <p class="company-ad">
+                  Наша компания является одной из немногих, кто предлагает
+                  фитнес услуги онлайн! Оставайтесь с нами и вы сами увидите,
+                  что мы проводим не только онлайн-тренировки.
+                </p>
+                <button type="button">Записаться</button>
+              </div>
+              <div class="company-image"></div>
+            </div>
+            <div class="company-pluses"></div>
           </div>
         </div>
       </div>

@@ -333,29 +333,75 @@ img.girl {
 }
 
 .mail {
-  margin: 0 auto;
+  padding-bottom: 3px;
+  position: relative;
+  z-index: 1;
 }
 
 .mail-form {
   padding-bottom: 80px;
   padding-top: 80px;
+  text-align: center;
 }
 
 .title-form {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.subscribe {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 21px;
+}
+
+.email-input {
+  border: transparent;
+  height: 63px;
+  width: 367px;
+}
+
+.email-input::placeholder {
+  color: #c0c3c6;
+  padding-left: 17px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.subscribe-button {
+  background: #fbf138;
+  border: none;
+  padding: 22px 42px 20px 43px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2b3541;
+}
+
+.subscribe-button:hover {
+  background: #2b3541;
+  color: #fbf138;
 }
 
 .agreement {
-  margin-top: 14px;
+  margin-top: 11px;
+  text-align: start;
+  padding-left: 271px;
 }
 
 .label-checkbox {
   font-size: 11px;
   line-height: 1.5;
-  opacity: 0.5;
 }
 
 .label-checkbox a {
-  color: #2b3541;
+  color: #8f949a;
 }
 
 .checkbox:checked,
@@ -366,8 +412,9 @@ img.girl {
 .checkbox:checked + label,
 .checkbox:not(:checked) + label {
   position: relative;
-  padding-left: 35px;
+  padding-left: 24px;
   cursor: pointer;
+  color: #8f949a;
 }
 /* Стили для псевдоэлемента before с фоном и обводкой, когда пункт активен */
 .checkbox:checked + label::before {
@@ -426,3 +473,16 @@ img.girl {
 .radio:checked + label::before {
   border-radius: 100%;
 }
+
+.circle {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background-color: #fbf138;
+  position: absolute;
+  top: 62px;
+  left: 243px;
+  z-index: -1;
+}
+
+/* COMPANY */
