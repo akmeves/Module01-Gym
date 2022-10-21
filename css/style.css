@@ -62,86 +62,64 @@ body {
 
 /* PROMO */
 
-.promo-section {
-  margin-bottom: 162px;
-}
-
-.promo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.title {
+  padding-top: 207px;
+  margin-left: 4px;
   position: relative;
 }
-
-.promo-text {
-}
-.promo-title {
-  font-weight: 700;
+.title-h1 {
   font-size: 48px;
-  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 125%;
   letter-spacing: 0.03em;
-  line-height: 1.25;
-  margin-top: -58px;
+  text-transform: uppercase;
 }
-
-.promo-text p {
-  max-width: 300px;
-  font-size: 18px;
-  margin: 0;
-  line-height: 1.5;
-  margin-left: 91px;
-  margin-bottom: 360px;
-}
-
-.promo-text span {
-  display: block;
+.title-training {
   font-size: 40px;
-  line-height: 1.25;
-  margin-bottom: 20px;
+  line-height: 125%;
+  margin-top: 42px;
+  margin-bottom: 22px;
 }
-
-.button-promo {
+.title-training-number {
+  padding-right: 10px;
+}
+.title-training-description {
+  line-height: 150%;
+  padding-left: 90px;
+}
+.button {
   font-weight: 700;
   font-size: 16px;
   text-align: center;
+  letter-spacing: 0.08em;
+  line-height: 150%;
   text-transform: uppercase;
   border: none;
+  cursor: pointer;
+}
+.button:focus {
+  outline: none;
+}
+.title-button {
   background-color: #fbf138;
-  width: 252px;
-  height: 64px;
+  color: #2b3541;
+  padding: 20px 32px;
+  margin-left: 90px;
+  margin-top: 16px;
+  transition: 0.2s ease;
 }
-
-.promo-img {
-  position: relative;
+.title-button:hover,
+.about-button:hover {
+  color: #fbf138;
+  background-color: #2b3541;
 }
-
-.gradient {
-  width: 464px;
-  height: 850px;
-  background: linear-gradient(
-    90deg,
-    #fbf138 0%,
-    rgba(253, 249, 182, 0.45) 145.23%
-  );
-  opacity: 0.2;
-}
-
-img.girl {
-  position: absolute;
-  bottom: 1px;
-  right: -183px;
-  width: 983px;
-  height: 852px;
-}
-
-.button-down img {
+.arrow {
   width: 52px;
   height: 55px;
   position: absolute;
   left: 0;
   bottom: 0;
 }
-
 /* EVENTS */
 
 .events-section {
